@@ -63,7 +63,11 @@ const Index = () => {
               <Text fontSize="lg">SaaSify is dedicated to providing top-notch solutions for businesses of all sizes. Our platform is designed to streamline your operations and boost productivity.</Text>
             </Box>
             <Box flex="1">
-              <Image src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3MTYyODY4MDZ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Team Collaboration" borderRadius="md" />
+              <VStack spacing={4}>
+                <Image src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3MTYyODY4MDZ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Team Collaboration" borderRadius="md" />
+                <Image src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHRlYW19ZW58MHx8fHwxNzE2Mjg2ODA2fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Business Meeting" borderRadius="md" />
+                <Image src="https://images.unsplash.com/photo-1531497865146-5a4c8a4a3a1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGNvbGxhYm9yYXRpb258ZW58MHx8fHwxNzE2Mjg2ODA2fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Team Discussion" borderRadius="md" />
+              </VStack>
             </Box>
           </HStack>
         </Box>
